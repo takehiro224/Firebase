@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		B97BAB8EAE7E798764484C32 /* Pods_FirebaseSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D97EC684FEEAB5437DD934 /* Pods_FirebaseSampleTests.framework */; };
 		F91BBEF86C9364D88998889C /* Pods_FirebaseSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C3620AD7B0C2D0B617EEFA /* Pods_FirebaseSample.framework */; };
+		F92E3DD81F0F238700031C2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E3DD71F0F238700031C2C /* LoginViewController.swift */; };
+		F92E3DDA1F0F624100031C2C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E3DD91F0F624100031C2C /* ListViewController.swift */; };
+		F92E3DDC1F0F6DAE00031C2C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E3DDB1F0F6DAE00031C2C /* ListTableViewCell.swift */; };
 		F952C9631F03B1880037C756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952C9621F03B1880037C756 /* AppDelegate.swift */; };
 		F952C9651F03B1880037C756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952C9641F03B1880037C756 /* ViewController.swift */; };
 		F952C9681F03B1880037C756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F952C9661F03B1880037C756 /* Main.storyboard */; };
 		F952C96A1F03B1880037C756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F952C9691F03B1880037C756 /* Assets.xcassets */; };
 		F952C96D1F03B1880037C756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F952C96B1F03B1880037C756 /* LaunchScreen.storyboard */; };
 		F952C9781F03B1880037C756 /* FirebaseSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952C9771F03B1880037C756 /* FirebaseSampleTests.swift */; };
+		F952C9831F03B4180037C756 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F952C9821F03B4180037C756 /* GoogleService-Info.plist */; };
+		F952C9851F03B6DA0037C756 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952C9841F03B6DA0037C756 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 		AEFA667B42366A9D836A4A3A /* Pods-FirebaseSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSample/Pods-FirebaseSample.release.xcconfig"; sourceTree = "<group>"; };
 		C43D88DD15BCF66D50FA6F38 /* Pods-FirebaseSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSampleTests/Pods-FirebaseSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C4D97EC684FEEAB5437DD934 /* Pods_FirebaseSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92E3DD71F0F238700031C2C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F92E3DD91F0F624100031C2C /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
+		F92E3DDB1F0F6DAE00031C2C /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewCell.swift; path = ../ListTableViewCell.swift; sourceTree = "<group>"; };
 		F952C95F1F03B1880037C756 /* FirebaseSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F952C9621F03B1880037C756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F952C9641F03B1880037C756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +52,8 @@
 		F952C9731F03B1880037C756 /* FirebaseSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F952C9771F03B1880037C756 /* FirebaseSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSampleTests.swift; sourceTree = "<group>"; };
 		F952C9791F03B1880037C756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F952C9821F03B4180037C756 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F952C9841F03B6DA0037C756 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 		F952C9611F03B1880037C756 /* FirebaseSample */ = {
 			isa = PBXGroup;
 			children = (
-				F952C9621F03B1880037C756 /* AppDelegate.swift */,
-				F952C9641F03B1880037C756 /* ViewController.swift */,
 				F952C9661F03B1880037C756 /* Main.storyboard */,
+				F952C9621F03B1880037C756 /* AppDelegate.swift */,
+				F952C9841F03B6DA0037C756 /* SignupViewController.swift */,
+				F92E3DD71F0F238700031C2C /* LoginViewController.swift */,
+				F92E3DD91F0F624100031C2C /* ListViewController.swift */,
+				F92E3DDB1F0F6DAE00031C2C /* ListTableViewCell.swift */,
+				F952C9641F03B1880037C756 /* ViewController.swift */,
 				F952C9691F03B1880037C756 /* Assets.xcassets */,
 				F952C96B1F03B1880037C756 /* LaunchScreen.storyboard */,
 				F952C96E1F03B1880037C756 /* Info.plist */,
+				F952C9821F03B4180037C756 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseSample;
 			sourceTree = "<group>";
@@ -220,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F952C96D1F03B1880037C756 /* LaunchScreen.storyboard in Resources */,
+				F952C9831F03B4180037C756 /* GoogleService-Info.plist in Resources */,
 				F952C96A1F03B1880037C756 /* Assets.xcassets in Resources */,
 				F952C9681F03B1880037C756 /* Main.storyboard in Resources */,
 			);
@@ -332,8 +348,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92E3DD81F0F238700031C2C /* LoginViewController.swift in Sources */,
+				F952C9851F03B6DA0037C756 /* SignupViewController.swift in Sources */,
 				F952C9651F03B1880037C756 /* ViewController.swift in Sources */,
+				F92E3DDA1F0F624100031C2C /* ListViewController.swift in Sources */,
 				F952C9631F03B1880037C756 /* AppDelegate.swift in Sources */,
+				F92E3DDC1F0F6DAE00031C2C /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +567,7 @@
 				F952C97E1F03B1880037C756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F952C97F1F03B1880037C756 /* Build configuration list for PBXNativeTarget "FirebaseSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +576,7 @@
 				F952C9811F03B1880037C756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
